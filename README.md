@@ -35,6 +35,24 @@ Our comprehensive analysis, combining Monte Carlo simulations and Machine Learni
 | Lasso Regression   | 0.067566            | 0.008107           | 0.090038                | -0.103279          |
 | Elastic Net Regression | 0.067555        | 0.008105           | 0.090029                | -0.103041          |
 
+![RD-ML](https://github.com/sajaddadgar/Robustness-Analysis-of-AS-Network/assets/47991444/210eeb33-3dbd-4d33-be6d-39027204ed38)
 
+
+
+#### Prediction of IB robustness:
+
+| Model              | Mean Absolute Error | Mean Squared Error | Root Mean Squared Error | R-squared          |
+|--------------------|---------------------|--------------------|-------------------------|--------------------|
+| Random Forest      | 0.072956            | 0.009135           | 0.095578                | 0.420584           |
+| SVM                | 0.103772            | 0.012430           | 0.111489                | 0.211613           |
+| Decision Tree      | 0.062800            | 0.007032           | 0.083855                | 0.579283           |
+| Linear Regression  | 0.033904            | 0.002237           | 0.047292                | 0.497674           |
+| Ridge Regression   | 0.051074            | 0.003789           | 0.061553                | 0.149053           |
+| Lasso Regression   | 0.060359            | 0.005063           | 0.071157                | -0.137207          |
+| Elastic Net Regression | 0.060360        | 0.005064           | 0.071158                | -0.137255          |
+
+
+
+![IB-ML](https://github.com/sajaddadgar/Robustness-Analysis-of-AS-Network/assets/47991444/3805b460-a98d-4b90-af27-10720aacae8c)
 
 
