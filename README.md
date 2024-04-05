@@ -4,6 +4,11 @@ Our study delves into enhancing the robustness of Autonomous Systems (AS) networ
 ![graph_mod](https://github.com/sajaddadgar/Robustness-Analysis-of-AS-Network/assets/47991444/edd8fd6d-3d15-46a6-8012-43630db92515)
 
 
+## Dataset
+Our study utilizes a subset of the "AS Relationships" dataset from The Center for Applied Internet Data Analysis (CAIDA)\cite{CAIDA2013}, which provides crucial insights into the business interactions between Autonomous Systems (ASes) on the Internet. This dataset, significant for understanding internet inter-domain routing and economic structures, spans from 2013 to the current date and encompasses around 500GB of data. Due to its extensive size, we selectively extracted the most pertinent segments for our analysis. The raw data encapsulates ASes interactions derived from BGP routing table analyses, structured in a detailed format that includes the organization collecting the data, the BGPstream collector's name, frequency of path observations, AS path, prefix, code, and peer IP address. This format meticulously records the dynamic interconnections and operational specifics of ASes, offering a granular view of the internet's backbone and its operational dynamics. Our focused extraction and analysis of this dataset facilitate an in-depth exploration of AS networks, shedding light on their complex relationships and the foundational role they play in the global internet infrastructure.
+
+
+
 ## Methods
 In our study on network structure robustness, we implemented a comprehensive computational method that combines theoretical and empirical analysis through two main approaches designed to enhance understanding of how network robustness can be quantified, enhanced, and potentially protected against failures and targeted attacks. The first approach utilizes Monte Carlo simulations to evaluate the network's resilience against various attacks. The second approach focuses on analyzing network attributes and their impact on resilience using various machine learning algorithms. This dual approach allows us to quantify network robustness and identify attributes that contribute to its resilience, offering insights into both the immediate effects of attacks and long-term strategies for network reinforcement.
 
