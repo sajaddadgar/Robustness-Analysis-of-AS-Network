@@ -23,6 +23,17 @@ Our comprehensive analysis, combining Monte Carlo simulations and Machine Learni
 
 ### Approach 2. Machine Learning Models for Robustness Prediction
 
+#### Prediction of RD robustness:
+
+| Model              | Mean Absolute Error | Mean Squared Error | Root Mean Squared Error | R-squared          |
+|--------------------|---------------------|--------------------|-------------------------|--------------------|
+| Random Forest      | 0.060028            | 0.004145           | 0.064383                | 0.575149           |
+| SVM                | 0.045393            | 0.002461           | 0.049613                | 0.162101           |
+| Decision Tree      | 0.068600            | 0.006537           | 0.080854                | 0.110316           |
+| Linear Regression  | 0.074860            | 0.005933           | 0.077026                | 0.192567           |
+| Ridge Regression   | 0.074813            | 0.007631           | 0.087358                | -0.038579          |
+| Lasso Regression   | 0.067566            | 0.008107           | 0.090038                | -0.103279          |
+| Elastic Net Regression | 0.067555        | 0.008105           | 0.090029                | -0.103041          |
 
 
 
